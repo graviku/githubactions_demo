@@ -38,10 +38,6 @@ jobs:
   # uses: PavanMudigonda/jacoco-reporter@4fc6bf270fe893e8dda5467e432253a6961345b8
   uses: PavanMudigonda/jacoco-reporter@v5.0
   with:
-    # Path to the JaCoCo coverage results file which will be used to generate
-a report. The only coverage results format supported is the
-JaCoCo XML schema.
-
     coverage_results_path: 
     # Optionally specify the level of output detail for the test results.
 May be one of: `none`, `Minimal`, `normal`, `detailed`, `diagnostic`
